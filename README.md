@@ -14,7 +14,7 @@ It covers:
 - How to interact with a contract through **Remix IDE**
 
 ---
-
+Contract addres: 0xaE844712bA25aa60814f26Da7a078515bd2e63aA
 ## 💻 Smart Contract
 
 ```solidity
@@ -40,8 +40,7 @@ contract Counter {
         count -= 1;
     }
 
-    // Function to retrieve the current count
+    // Functions to retrieve the current count
     function getCount() public view returns (int) {
         return count;
     }
-}
